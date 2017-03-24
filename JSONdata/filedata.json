@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "18",
+               "short_name" : "18",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Regina",
+               "short_name" : "Regina",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Dana Point",
+               "short_name" : "Dana Point",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Orange County",
+               "short_name" : "Orange County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "92629",
+               "short_name" : "92629",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "4152",
+               "short_name" : "4152",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "18 Regina, Dana Point, CA 92629, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 33.4867149,
+               "lng" : -117.707107
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 33.48806388029149,
+                  "lng" : -117.7057580197085
+               },
+               "southwest" : {
+                  "lat" : 33.48536591970849,
+                  "lng" : -117.7084559802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ8yv_nDvw3IARqs_rzgPJzk4",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}
