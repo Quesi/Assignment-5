@@ -1,15 +1,15 @@
 //i can't  get the google map images to show. i keep getting an error message so i had to comment all these codes out
 
-/*function loadMap(direction){
+function loadMap(direction){
 
 
     //var geoCoder = new google.maps.GeoCoder(direction);
   //  var request = {address:direction};
 
     //geoCoder.geocode(request, function(result, status) {
-      //var coords = new google.maps.latLong(result[0].geometry.location.lat(), result[0]. geometry.location.lng());
+      var coords = new google.maps.latLong(result[0].geometry.location.lat(), result[0]. geometry.location.lng());
       var Mylat = position.coords.latitude;
-      var Mylat = position.coords.latitude;
+      var Mylong = position.coords.latitude;
 
 
       var coords = new google.maps.LatLng (Mylat, Mylong);
@@ -25,7 +25,7 @@
 
 
 };
-*/
+
 
 $(document).on("click", function () {
 //loadMap("UK")
@@ -35,7 +35,7 @@ $(document).on("click", function () {
 
       var dir = $("direction").val();
                       //
-      var GoogleAPI = "http://maps.google.com/maps/api/geocode/json?address=regina%%2018&sensor=false"
+      var GoogleAPI = "http://maps.google.com/maps/api/geocode/json?address=" + dir + "&sensor=false";
 
       $.getJSON(GoogleAPI, function (jsonResponse) {
         for(i = 0; i <jsonResponse.results.length; i++){
